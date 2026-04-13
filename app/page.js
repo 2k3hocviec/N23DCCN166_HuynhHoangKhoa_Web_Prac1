@@ -1,4 +1,6 @@
+import Badge from "./components/Badge";
 import BlogCard from "./components/BlogCard";
+import Header from "./components/Header";
 
 async function getPosts() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
